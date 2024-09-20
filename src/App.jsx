@@ -28,7 +28,7 @@ function App() {
 
   const toggleComplete = (id) => {
     console.log(todos)
-    setTodos ((oldTodo) => oldTodo.map((each) => each.id===id ? {...each,completed:!each.completed}: each))
+    setTodos ((oldTodo) => oldTodo.map((each) => each.id===id ? {...each,completed:!each.completedb}: each))
     console.log(todos )
   }
 
